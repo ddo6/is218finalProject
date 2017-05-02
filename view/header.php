@@ -5,7 +5,7 @@
 <head>
     <title>SportsPro Technical Support</title>
     <link rel="stylesheet" type="text/css"
-          href="/~ddo6/218finalproject/main.css">
+          href="/~ddo6/is218finalproject/css/main.css">
 </head>
 
 <!-- the body section -->
@@ -15,7 +15,7 @@
     <p>Sports management software for the sports enthusiast</p>
     <nav>
         <ul>
-            <li><a href="/~ddo6/218finalproject/index.php">Home</a></li>
+            <li><a href="/~ddo6/is218finalproject/admin/index.php">Home</a></li>
         </ul>
     </nav>
 </header>
