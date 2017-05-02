@@ -1,7 +1,7 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=tech_support';
-    $username = 'root';
-    $password = '';
+    $dsn = 'mysql:host=sql2.njit.edu;dbname=ddo6';
+    $username = 'ddo6';
+    $password = 'VP1tk3lrA';
     $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 
     try {
