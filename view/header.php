@@ -6,7 +6,7 @@
         <title>SportsPro Technical Support</title>
         
         <link rel="stylesheet" type="text/css"
-              href="<?php echo $app_path ?>/css/main.css" />
+              href="/~ddo6/is218finalproject/css/main.css" />
       
         
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
