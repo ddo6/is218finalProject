@@ -6,10 +6,8 @@
         <title>SportsPro Technical Support</title>
         
         <link rel="stylesheet" type="text/css"
-              href="<?php echo $app_path ?>/css/normalize.css" />
-        <link rel="stylesheet" type="text/css"
-              href="<?php echo $app_path ?>/css/skeleton.css" />
-        <link rel="stylesheet" type="text/css" href="<?php echo $app_path ?>/css/custom.css" />
+              href="<?php echo $app_path ?>/css/main.css" />
+      
         
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         
