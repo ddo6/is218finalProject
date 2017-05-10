@@ -1,5 +1,6 @@
 <?php include '../../view/header.php'; ?>
 <main>
+    <?php print_r ($products); ?>
     <h1>Product List</h1>
 
     <div id="main">
