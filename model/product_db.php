@@ -1,7 +1,7 @@
 <?php
 function get_all_products() {
     global $db;
-    $query = 'SELECT * FROM products
+    $query = 'SELECT * FROM tech_products
               ORDER BY productCode';
     try {
         $statement = $db->prepare($query);
