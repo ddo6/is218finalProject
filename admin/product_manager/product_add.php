@@ -17,7 +17,7 @@
         <br>
         
         <label>Release Date:</label>
-        <input type="text" name="date" id="datepicker" />
+        <input type="text" name="date" id="releaseDate" />
         <br>
 
         <label>&nbsp;</label>
