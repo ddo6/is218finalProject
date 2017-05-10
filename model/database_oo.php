@@ -1,10 +1,11 @@
 <?php
 class Database {
-    private static $dsn = 'mysql:host=localhost;dbname=tech_support';
-    private static $username = 'root';
-    private static $password = '';
+    private static $dsn = 'mysql:host=sql2.njit.edu;dbname=ddo6';
+    private static $username = 'ddo6';
+    private static $password = 'VP1tk3lrA';
     private static $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
     private static $db;
+    
 
     private function __construct() {}
     
