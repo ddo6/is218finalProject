@@ -18,8 +18,7 @@
                 <td><?php echo $product['productCode']; ?></td>
                 <td><?php echo $product['name']; ?></td>
                 <td><?php echo $product['version']; ?></td>
-                <td><?php $date = new DateTime($product['releaseDate']); 
-                     echo $date->format('m-d-Y'); ?></td>
+                <td><?php echo $product['releaseDate']; ?></td>
                 <!-- delete the product -->
                 <td><form action="" method="post">
                     <input type="hidden" name="action"
