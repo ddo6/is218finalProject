@@ -1,4 +1,4 @@
-<?php include ('view/header.php'); ?>
+<?php include '../view/header.php'; ?>
 <div id="main">
     <h2>Admin Menu</h2>
     <ul class="nav">
@@ -16,4 +16,4 @@
         <input type="submit" value="Logout" />
     </form>
 </div>
-<?php include ('view/footer.php'); ?>
+<?php include '../view/footer.php'; ?>
