@@ -15,7 +15,7 @@
     <p>Sports management software for the sports enthusiast</p>
     <nav>
         <ul>
-            <li><a href="/~ddo6/is218final/admin/index.php">Home</a></li>
+            <li><a href="/~ddo6/is218final/index.php">Home</a></li>
         </ul>
     </nav>
 </header>
