@@ -1,4 +1,4 @@
-<?php include '../view/header.php'; ?>
+<?php include '../view/admin_header.php'; ?>
 <div id="main">
     <h2>Admin Menu</h2>
     <ul class="nav">
