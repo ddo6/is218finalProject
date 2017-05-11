@@ -13,7 +13,7 @@
             </tr>
             <?php foreach ($incidents as $incident) : ?>
             <tr>
-                <td><?php echo $incident['incidentID'] . ?></td>
+                
                <td><?php echo $incident['cFirstName'] . " ". $incident['cLastName']; ?></td>
                 <td><?php echo $incident['productName']; ?></td>
                 <td><?php echo $incident['tFirstName'] . " ". $incident['tLastName']; ?></td>
