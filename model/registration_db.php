@@ -30,7 +30,7 @@ function add_registration($customer, $code, $date) {
 
 function get_registrations_by_customer($customer_id) {
     global $db;
-    $query = 'SELECT * FROM registrations r LEFT JOIN products p
+    $query = 'SELECT * FROM registrations r LEFT JOIN tech_products p
               ON r.productCode = p.productCode
               WHERE customerID = :customer_id
               ORDER BY r.productCode';
