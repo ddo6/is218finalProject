@@ -16,7 +16,7 @@ function get_all_products() {
 
 function get_product($code) {
     global $db;
-    $query = 'SELECT * FROM products
+    $query = 'SELECT * FROM tech_products
               WHERE productCode = :code';
     try {
         $statement = $db->prepare($query);
@@ -33,7 +33,7 @@ function get_product($code) {
 
 function delete_product($code) {
     global $db;
-    $query = 'DELETE FROM products
+    $query = 'DELETE FROM tech_products
               WHERE productCode = :code';
     $statement = $db->prepare($query);
     $statement->bindValue(':code', $code);
@@ -43,7 +43,7 @@ function delete_product($code) {
 
 function add_product($code, $name, $version, $date) {
     global $db;
-    $query = 'INSERT INTO products
+    $query = 'INSERT INTO tech_products
                  (productCode, name, version, releaseDate)
               VALUES
                  (:code, :name, :version, :date)';
