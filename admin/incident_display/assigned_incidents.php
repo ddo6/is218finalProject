@@ -1,4 +1,5 @@
 <?php include '../../view/header.php'; ?>
+<?php print_r($incidents) ?>
 <main>
     <h3>Assigned Incidents | <a href="?action=list_unassigned_incidents">Unassigned Incidents</a></h3>
 
