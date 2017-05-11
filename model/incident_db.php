@@ -18,7 +18,27 @@ function get_all_unassigned_incidents() {
     }
 }
 
-function get_all_assigned_incidents() {
+
+function get_all_assigned_incidents()
+{
+    global $db;
+    $query = 'SELECT * FROM incidents
+				INNER JOIN customers
+		    			ON incidents.customerID = customers.customerID
+				INNER JOIN products
+						ON incidents.productCode = products.productCode
+			  WHERE incidents.techID IS NOT NULL';
+    try {
+        $statement = $db->prepare($query);
+        $statement->execute();
+        $result = $statement->fetchAll();
+        $statement->closeCursor();
+        return $result;
+    } catch (PDOException $e) {
+        display_db_error($e->getMessage());
+    }
+}
+/*function get_all_assigned_incidents() {
     global $db;
     $query = 'SELECT c.firstName AS cFirstName, c.lastName AS cLastName,
                      t.firstName AS tFirstName, t.lastName AS tLastName,
@@ -41,7 +61,7 @@ function get_all_assigned_incidents() {
         $error_message = $e->getMessage();
         display_db_error($error_message);
     }
-}
+}*/
 
 function get_incident_by_id($id) {
     global $db;
