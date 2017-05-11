@@ -1,6 +1,4 @@
 <?php include '../../view/header.php'; ?>
-<?php print_r($incidents) ?>
-<?php print_r("Heello") ?>
 <main>
     <h3>Assigned Incidents | <a href="?action=list_unassigned_incidents">Unassigned Incidents</a></h3>
 
@@ -16,7 +14,7 @@
             <?php foreach ($incidents as $incident) : ?>
             <tr>
                 <td><?php echo $incident['incidentID'] . ?></td>
-                <td><?php echo $incident['cFirstName'] . " ". $incident['cLastName']; ?></td>
+               <td><?php echo $incident['cFirstName'] . " ". $incident['cLastName']; ?></td>
                 <td><?php echo $incident['productName']; ?></td>
                 <td><?php echo $incident['tFirstName'] . " ". $incident['tLastName']; ?></td>
                 <td>
