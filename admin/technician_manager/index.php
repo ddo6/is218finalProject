@@ -13,8 +13,9 @@ if ($action == NULL) {
     }
 }
 
-// technicians
+// Technician Menu
 switch($action) {
+        
     case 'list_technicians':
         // list all technicians
         $technicians = TechnicianDB::get_all_technicians();
@@ -32,7 +33,7 @@ switch($action) {
         }
         break;
     case 'show_add_form':
-        // call page to add a technician
+        //Loads add technician form
         include('technician_add.php'); 
         break;
     case 'add_technician':
