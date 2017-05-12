@@ -1,4 +1,5 @@
 <?php
+//Add the required model components for use
 require_once('../../util/main.php');
 require_once('../../util/secure_conn.php');
 require('../../model/database.php');
@@ -8,6 +9,7 @@ require('../../model/country_db.php');
 require_once('../../model/fields.php');
 require_once('../../model/validate.php');
 
+//Initialize the validate object to be used for form validation
 $validate = new Validate();
 $fields = $validate->getFields();
 $fields->addField('fname');
