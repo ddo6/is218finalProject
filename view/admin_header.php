@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- the head section -->
+<!-- Specfic header to be displayed when admin presses home button -->
 <head>
     <title>SportsPro Technical Support</title>
     <link rel="stylesheet" type="text/css"
