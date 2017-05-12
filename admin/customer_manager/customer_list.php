@@ -1,4 +1,5 @@
 <?php include '../../view/header.php'; ?>
+ <!-- Set up web Page to display customers -->
 <main>
     <h3>Customer Search | <a href="?action=show_add_edit_form">Add a new customer</a></h3>
 
