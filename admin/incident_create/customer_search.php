@@ -1,4 +1,5 @@
 <?php include '../../view/header.php'; ?>
+<!-- Searches up customer based on email to create incident -->
 <main>
     <h1>Get Customer</h1>
 
