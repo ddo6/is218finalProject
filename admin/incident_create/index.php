@@ -15,7 +15,9 @@ if ($action == NULL) {
     }
 }
 
+//Options for form processesing
 switch($action) {
+        
     case 'search_form':
         include 'customer_search.php';
         break;
