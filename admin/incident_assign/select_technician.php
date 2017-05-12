@@ -1,4 +1,5 @@
 <?php include '../../view/header.php'; ?>
+<!-- PHP file to display select technician option -->
 <main>
     <h3>Select Technician</h3>
 
