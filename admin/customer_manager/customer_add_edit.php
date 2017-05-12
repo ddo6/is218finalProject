@@ -1,7 +1,9 @@
 <?php include ('../../view/header.php'); ?>
+<!-- Updated Customer Add/Update to Display information from cutomer DB -->
 <main>
     <h1>Add/Update Customer</h1>
     <form action="index.php" method="post" id="add_edit_customer_form">
+        
         <?php if (isset($id)) : ?>
             <input type="hidden" name="id" value="<?php echo $id; ?>" />
             <input type="hidden" name="action" value="update_customer" />
