@@ -1,4 +1,5 @@
 <?php include '../../view/header.php'; ?>
+<!-- Displays confirmation page of incident being added -->
 <main>
     <h1>Create Incident</h1>
     <div id="main">
