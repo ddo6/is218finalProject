@@ -1,4 +1,5 @@
 <?php include '../../view/header.php'; ?>
+<!-- Displays table of incidents and assigns to technician -->
 <main>
     <h3>Select Incident</h3>
 
