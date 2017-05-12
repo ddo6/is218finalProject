@@ -1,4 +1,5 @@
 <?php include ('../../view/header.php'); ?>
+<!-- Assigns incident to Technician Selected from technician DB -->
 <main>
     <h3>Assign Incident</h3>
     <form action="index.php" method="post" id="assign_incident_form">
